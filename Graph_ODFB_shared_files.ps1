@@ -261,9 +261,9 @@ function Invoke-GraphApiRequest {
 #==========================================================================
 
 #Variables to configure
-$tenantID = "tenant.onmicrosoft.com" #your tenantID or tenant root domain
-$appID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" #the GUID of your app. For best result, use app with Sites.ReadWrite.All scope granted.
-$client_secret = "verylongsecurestring" #client secret for the app
+$tenantID = "c7a030c1-5ad3-487c-82a6-fd3e304791d6" #your tenantID or tenant root domain
+$appID = "be733699-b63c-4a2d-af8d-994039f9123a" #the GUID of your app. For best result, use app with Sites.ReadWrite.All scope granted.
+$client_secret = "Z3S8Q~Y5nxF5s7hfr8rb6OKuaeBjcjDVkHSO6bdB" #client secret for the app
 
 Renew-Token
 
